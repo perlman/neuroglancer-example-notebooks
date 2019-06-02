@@ -1,3 +1,5 @@
 neuroglancer
 numpy>=1.16.0
 pillow>=6.0.0
+jupyter
+jupyterlab
