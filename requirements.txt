@@ -6,3 +6,4 @@ jupyterlab
 h5py
 requests
 tqdm
+jupyter-server-proxy
