@@ -2,9 +2,9 @@
 
 Original examples are from the 2019 NSF NeuroNex 3DEM Workshop in Austin, TX.
 
-## MyBinder
+## Binder
 
-TBD
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/perlman/neuroglancer-example-notebooks/binder)
 
 ## Set up Jupyter in a new virtual environment (python/pip)
 
@@ -14,7 +14,7 @@ Note: `numpy` must be installed before cloud-volume.
 python3 -m venv ENV
 source ENV/bin/activate
 pip install numpy
-pip install -r requirements.txt
+pip install -r reqs.txt
 jupyter-lab
 ```
 

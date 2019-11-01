@@ -1,7 +1,6 @@
 numpy
 neuroglancer
 pillow
-jupyter
 jupyterlab
 h5py
 requests
