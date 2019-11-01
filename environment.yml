@@ -5,7 +5,7 @@ dependencies:
   - python==3.7.3
   - numpy==1.17.3
   - requests==2.22.0
-  - h5py==h5py
+  - h5py==2.9.0
   - tqdm==4.36.1
   - pillow==6.2.1
   - jupyterlab==1.2.0
