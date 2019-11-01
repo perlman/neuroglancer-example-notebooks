@@ -1,0 +1,7 @@
+#!/bin/bash
+
+#
+# Use the jupyterlab-server-proxy extension to allow access between
+# browser and neuroglancer-python.
+#
+jupyter labextension install jupyterlab-server-proxy

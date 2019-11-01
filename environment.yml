@@ -1,0 +1,17 @@
+name: neuroglancer-demo
+channels:
+  - conda-forge
+dependencies:
+  - python
+  - numpy
+  - requests
+  - pip
+  - h5py
+  - tqdm
+  - pillow
+  - jupyter
+  - jupyterlab
+  - jupyter-server-proxy
+  - pip:
+    - neuroglancer
+    - cloud-volume

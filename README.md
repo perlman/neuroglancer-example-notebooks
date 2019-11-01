@@ -1,18 +1,33 @@
-# 3DEM-2019
+# Examples of using Neuroglancer with Jupyter
 
-3DEM Neuroglancer Workshop: Using Neuroglancer's python integration.
+Original examples are from the 2019 NSF NeuroNex 3DEM Workshop in Austin, TX.
 
-## Set up Jupyter in a new virtualenvironment
+## MyBinder
+
+TBD
+
+## Set up Jupyter in a new virtual environment (python/pip)
+
+Note: `numpy` must be installed before cloud-volume.
 
 ```
 python3 -m venv ENV
 source ENV/bin/activate
+pip install numpy
 pip install -r requirements.txt
+jupyter-lab
+```
+
+## Set up Jupyter in a new virtual environment (conda)
+
+```
+conda env create -f environment.yml
+conda activate neuroglancer-demo
 jupyter-lab
 ```
 
 ## References
 
-* <a href="https://github.com/google/neuroglancer">Neuroglancer Repo</a>
-  * ...<a href="https://github.com/google/neuroglancer/tree/master/python">Python examples</a>
+* [Neuroglancer Repo](https://github.com/google/neuroglancer)
+  * ... [Python Examples](https://github.com/google/neuroglancer/tree/master/python)
 
