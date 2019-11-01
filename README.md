@@ -4,7 +4,7 @@ Original examples are from the 2019 NSF NeuroNex 3DEM Workshop in Austin, TX.
 
 ## Binder
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/perlman/neuroglancer-example-notebooks/binder)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/perlman/neuroglancer-example-notebooks/binder?urlpath=lab)
 
 ## Set up Jupyter in a new virtual environment (python/pip)
 
@@ -21,7 +21,7 @@ jupyter-lab
 ## Set up Jupyter in a new virtual environment (conda)
 
 ```
-conda env create -f environment.yml
+conda env create -f environment.yml --name neuroglancer-demo
 conda activate neuroglancer-demo
 jupyter-lab
 ```

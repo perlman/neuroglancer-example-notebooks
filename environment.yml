@@ -1,16 +1,16 @@
-name: neuroglancer-demo
 channels:
   - conda-forge
+  - defaults
 dependencies:
-  - python
-  - numpy
-  - requests
-  - h5py
-  - tqdm
-  - pillow
-  - jupyterlab
-  - jupyter-server-proxy
+  - python==3.7.3
+  - numpy==1.17.3
+  - requests==2.22.0
+  - h5py==h5py
+  - tqdm==4.36.1
+  - pillow==6.2.1
+  - jupyterlab==1.2.0
+  - jupyter-server-proxy==1.1.0
   - pip
   - pip:
-    - neuroglancer
-    - cloud-volume
+    - neuroglancer==1.1.6
+    - cloud-volume==0.65.1
