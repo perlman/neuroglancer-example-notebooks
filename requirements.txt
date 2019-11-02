@@ -1,9 +1,9 @@
+numpy
 neuroglancer
-numpy>=1.16.0
-pillow>=6.0.0
-jupyter
+pillow
 jupyterlab
 h5py
 requests
 tqdm
 jupyter-server-proxy
+cloud-volume
