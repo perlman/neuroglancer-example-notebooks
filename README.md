@@ -4,7 +4,7 @@ Original examples are from the 2019 NSF NeuroNex 3DEM Workshop in Austin, TX.
 
 ## Binder
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/perlman/neuroglancer-example-notebooks/?urlpath=lab)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/perlman/neuroglancer-example-notebooks/master?urlpath=lab)
 
 ## Set up Jupyter in a new virtual environment (python/pip)
 
